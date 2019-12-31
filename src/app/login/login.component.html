@@ -1,0 +1,28 @@
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <div class="card w-10" id="card">
+                <h3 class="card-header card-text text-center">Account Login</h3>
+
+                <div class="card-body">
+                    <form (button)="enter()">
+
+                        <div class="form-group">
+                            <input type="text" class='p-3 w-100' id="tod" name="todobox" placeholder="Username"
+                                #todolist [(ngModel)]="user">
+                            <input type="password" class='p-3 w-100' id="tod1" name="todobox" placeholder="Password"
+                                #todolist [(ngModel)]="pwd">
+                                <div style="margin-top: 20px;">
+                            <input type="button" value="Login" class="btn btn-block btn-primary" (click)="enter()">
+                        </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+#tod{
+   
+    outline:none;
+    border : box;
+    border-bottom: 2px solid black;
+    /* border-radius: 10%; */
+    width: 50%;
+}
+#tod1{
+   
+    outline:none;
+    border : box;
+    /* border-bottom: 2px solid black; */
+    /* border-radius: 10%; */
+    width: 50%;
+}
+
+
+#card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-top: 18%; /*Added*/
+    margin-left: 35%;
+}
